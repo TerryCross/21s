@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="module" src="../src/index.js"></script>  <!-- if protocol is file:/// then type=module falls foul of CORS -->
+    <script> console.log(23452345); </script>
+  </head>
+  <body>
+    <pre contenteditable="true" id="webconsole">
+__
+    </pre>
+    <script>
+      console.log("index.html, imprter 21s.js");
+    </script>
+    <script>
+     addEventListener("DOMContentLoaded", () => {
+         console.log("domo loaded importer 21s.js");
+         console.log("importer 21s.js", typeof playaGame);
+         //playaGame();
+         
+     })
+    </script>
+  </body>
+</html>

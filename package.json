@@ -1,0 +1,24 @@
+{
+  "name": "21s",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Console Game of 21s/pontoon/blackjack",
+  "main": "21s.js",
+  "scripts": {
+    "test": "jest --coverage --forceExit",
+    "play": "node src/index.js",
+    "webplay": "concurrently  \"http-server . -a localhost -p 1234\"   \"open http://localhost:1234/public/\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.2",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "babel-plugin-transform-dynamic-import": "^2.1.0",
+    "jest": "^28.1.0",
+    "jsdom": "^19.0.0"
+  },
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  }
+}
