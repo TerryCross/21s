@@ -10,6 +10,11 @@ To play the game on a local console in node:
 To run on the web do:
 
           $ npm run webplay
+          
+To run tests:
+       
+         $ npm test
+         
          
          
 
