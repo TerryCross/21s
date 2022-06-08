@@ -1,7 +1,15 @@
-21s/BlackJack console game.
+
+
+21s/BlackJack console game
+--------------------------
 
 To start run 21s.js in node: 
-    $ node 21s.js
+
+           $ npm run play
     
-Or open index.html in a browser.
+To run on the web do:
+
+          $ npm run webplay
+          
+
 
