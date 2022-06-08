@@ -32,7 +32,7 @@ async function playaGame() {
     if (isCli)
         process.exit(0);
     else
-        $('pre').remove();
+        document.body.querySelector('pre').remove();
 
 }
 
