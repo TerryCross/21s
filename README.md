@@ -6,6 +6,13 @@
 Install with:
 
     $ git clone https://github.com/TerryCross/21s
+Prerequisites:
+
+A command terminal.
+An installation of git, node and npm.
+
+Note, the '$' below represents the 
+command line prompt.
 
 Change dir/folder to new dir called "21s"
 
